@@ -6,7 +6,7 @@ import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename="/web">
       <App />
     </HashRouter>
   </React.StrictMode>,
