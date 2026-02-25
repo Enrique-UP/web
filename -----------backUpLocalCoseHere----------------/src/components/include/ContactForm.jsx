@@ -66,7 +66,7 @@ function ContactForm() {
                 />
                 {formik.errors.user_name && formik.touched.user_name && <small>{formik.errors.user_name}</small>}
             </div>{/*--cols--*/}
-            <div className="col-xs-12 col-md-6">
+            <div className="col-xs-12 col-lg-6">
                 <input 
                     type="email" 
                     name="user_email"
@@ -80,7 +80,7 @@ function ContactForm() {
                 />
                 {formik.errors.user_email && formik.touched.user_email && <small>{formik.errors.user_email}</small>}
             </div>{/*--cols--*/}
-            <div className="col-xs-12 col-md-6">
+            <div className="col-xs-12 col-lg-6">
                 <input 
                     type="text" 
                     name="user_phone" 
