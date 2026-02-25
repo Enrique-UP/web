@@ -5,6 +5,8 @@ import Banner_line from "./include/Banner_line";
 import Left_sidebar1 from "./include/Left_sidebar1";
 import Fixed_area from "./include/Fixed_area";
 import Bottom_counter from "./include/Bottom_counter";
+import ContactForm from "./include/ContactForm";
+
 const Contact_us = () => {
     const [data, setData] = useState({
         fname: "",
@@ -53,28 +55,29 @@ const Contact_us = () => {
                                             <a href="mailto:demo@example.com" target="_blank" className="fa fa-envelope"></a>
                                         </div>{/*--contact_icons--*/}
                                         <p className="heading_p">Send us an Email</p>
-                                        <form className="form_area contact_us" onSubmit={formSubmit} data-aos="fade-up">
+                                        <ContactForm />
+                                        {/* <form className="form_area contact_us" onSubmit={formSubmit} data-aos="fade-up">
                                             <div className="row">
                                                 <div className="col-xs-12 col-sm-6 col-md-12 col-lg-6">
                                                     <input type="text" placeholder="First Name" className="form-control input_area" name="fname" value={data.fname} onChange={InputEvent} required />
-                                                </div>{/*--cols--*/}
+                                                </div>
                                                 <div className="col-xs-12 col-sm-6 col-md-12 col-lg-6">
                                                     <input type="text" placeholder="Last Name" className="form-control input_area"name="lname" value={data.lname} onChange={InputEvent} required />
-                                                </div>{/*--cols--*/}
+                                                </div>
                                                 <div className="col-xs-12 col-sm-6 col-md-12 col-lg-6">
                                                     <input type="text" placeholder="Your Email Address" className="form-control input_area"
                                                     name="email" value={data.email} onChange={InputEvent} required />
-                                                </div>{/*--cols--*/}
+                                                </div>
                                                 <div className="col-xs-12 col-sm-6 col-md-12 col-lg-6">
                                                     <input type="text" placeholder="Your Telephone Number" className="form-control input_area"
                                                     name="phone" value={data.phone} onChange={InputEvent} required />
-                                                </div>{/*--cols--*/}
+                                                </div>
                                                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                                     <textarea placeholder="Enter a message..." className="form-control text_area" name="message" value={data.message} onChange={InputEvent} required></textarea>
-                                                </div>{/*--cols--*/}
-                                            </div>{/*--row--*/}
+                                                </div>
+                                            </div>
                                             <button className="c_btn">Submit</button>
-                                        </form>
+                                        </form> */}
                                         <p className="heading_p">Contact Information</p>
                                         <p>Lorem ipsum dolor sit amit lorem ipsum dolor sit amit lorem ipsum dolor sit amit lorem ipsum dolor sit amit lorem ipsum dolor sit amit. Lorem ipsum dolor sit amit lorem ipsum dolor sit amit lorem ipsum dolor sit amit lorem ipsum dolor sit amit.</p>
                                         <p><strong>Commonly Sought Contact Details</strong></p>

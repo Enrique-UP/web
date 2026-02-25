@@ -498,6 +498,7 @@ form.form_area .head{width:100%;float:left;margin:0 0 30px;font-size: 30px;font-
 form.form_area input.input_area{width:100%;float:left;text-align: left;margin-bottom: 15px;height:50px;font-size: 16px;}
 
 form.form_area.contact_us{width:100%;float:left;margin-bottom: 30px;}
+form.form_area.contact_us small{width: 100%;margin-top: -10px; margin-bottom: 15px;float:left;color:red;}
 form.form_area .text_area{width:100%;float:left;resize: none;height: 120px;margin-bottom: 15px;font-size: 16px;}
 form.form_area .c_btn{font-size: 18px;padding:15px 30px;}
 form.form_area.contact_us .c_btn{float:left;}

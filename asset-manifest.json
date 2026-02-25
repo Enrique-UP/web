@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.855a70de.css",
-    "main.js": "/web/static/js/main.14ed6381.js",
+    "main.css": "/web/static/css/main.4b15914d.css",
+    "main.js": "/web/static/js/main.cd9de11f.js",
     "static/js/453.c4f323a4.chunk.js": "/web/static/js/453.c4f323a4.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/web/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/PlayfairDisplay-Bold.ttf": "/web/static/media/PlayfairDisplay-Bold.4ee4d27cae9d6cca0686.ttf",
@@ -46,12 +46,12 @@
     "static/media/ads_boxes-3.jpg.jfif": "/web/static/media/ads_boxes-3.jpg.65589fc07c2be38b9a7e.jfif",
     "static/media/ads_boxes-2.jpg.jfif": "/web/static/media/ads_boxes-2.jpg.ac97e45283563bcccade.jfif",
     "index.html": "/web/index.html",
-    "main.855a70de.css.map": "/web/static/css/main.855a70de.css.map",
-    "main.14ed6381.js.map": "/web/static/js/main.14ed6381.js.map",
+    "main.4b15914d.css.map": "/web/static/css/main.4b15914d.css.map",
+    "main.cd9de11f.js.map": "/web/static/js/main.cd9de11f.js.map",
     "453.c4f323a4.chunk.js.map": "/web/static/js/453.c4f323a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.855a70de.css",
-    "static/js/main.14ed6381.js"
+    "static/css/main.4b15914d.css",
+    "static/js/main.cd9de11f.js"
   ]
 }
